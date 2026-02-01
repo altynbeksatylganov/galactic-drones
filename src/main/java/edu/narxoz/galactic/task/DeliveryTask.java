@@ -39,7 +39,7 @@ public class DeliveryTask {
         return assignedDrone;
     }
 
-    // Сделали public
+
     public double estimateTime() {
         if (assignedDrone == null) {
             throw new IllegalStateException("No drone assigned");
